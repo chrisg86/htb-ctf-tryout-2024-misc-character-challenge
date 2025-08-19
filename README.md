@@ -10,7 +10,9 @@ Upon spinning up the docker container, you retrieve a `nc` (netcat) command to t
 Enter an index like 0, 1, 2 and you quickly realize that parts of the flag are returned one by one:
 
 > Character at Index 0: H
+
 > Character at Index 1: T
+
 > Character at Index 2: B
 
 Let's script this in order to retrieve the entire flag. We can do so by using the `socket` python module.
